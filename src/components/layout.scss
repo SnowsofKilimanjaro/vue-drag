@@ -1,0 +1,38 @@
+.el-container {
+  height: 100%;
+  .el-header {
+    background-color: #b3c0d1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  .el-main {
+    height: calc(100% - 60px);
+    display: flex;
+    .center {
+      flex-grow: 1;
+      border-left: 1px solid #dcdfe6;
+      border-right: 1px solid #dcdfe6;
+      width: calc(100% - 600px);
+      position: relative;
+      overflow: auto;
+      .drag-blocks-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      canvas {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+    }
+    .left,
+    .right {
+      width: 300px;
+    }
+  }
+}

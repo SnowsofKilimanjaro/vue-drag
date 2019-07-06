@@ -1,0 +1,3 @@
+export const SET_LEFT_LIST = 'SET_LEFT_LIST'
+export const ADD_TO_DATA_LIST = 'SET_DATA_LIST'
+export const UPDATE_DATA_LIST_ATTR = 'UPDATE_DATA_LIST_ATTR'
