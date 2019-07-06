@@ -1,4 +1,4 @@
-import Vue from 'vue/dist/vue.js'
+import Vue from 'vue/dist/vue'
 import Router from 'vue-router'
 import LayOut from '@/components/LayOut'
 
