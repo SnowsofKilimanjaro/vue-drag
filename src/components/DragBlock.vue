@@ -20,18 +20,18 @@ export default {
     VueDragResize
   },
   watch: {
-    dragBlockData (newValue, oldValue) {
+    dragBlockData(newValue, oldValue) {
       console.log(newValue)
     }
   },
-  updated () {
+  updated() {
     console.log(this.dragBlockData)
   },
   methods: {
     ...mapActions({
       updateAttr: 'vizDesign/updateAttr'
     }),
-    onDragging (dragObj) {
+    onDragging(dragObj) {
       console.log(dragObj)
       let obj = {
         index: this.dragBlockDataIndex,
