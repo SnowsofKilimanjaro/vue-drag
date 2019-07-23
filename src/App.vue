@@ -11,7 +11,10 @@ export default {
 </script>
 
 <style >
-#app,html,body{
+#app,html{
  height: 100%;
+}
+body{
+  height: calc(100% - 16px);
 }
 </style>

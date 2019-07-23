@@ -1,0 +1,166 @@
+.left-container{
+    .drag-container{
+        ul {
+            list-style: none;
+            li {
+              line-height: 32px;
+            }
+          }
+    }
+    .tool-container{
+        .tool{
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          .move{
+            span{
+              cursor:move
+            }
+          }
+          .hand{
+            span{
+              cursor:pointer;
+            }
+          }
+          .span-hand{
+            cursor:pointer;
+          }
+          .icon{
+            width: 24px;
+            height: 24px;
+          }
+          .line{
+            width: 80px;
+            height: 15px;
+          }
+          .header{
+            cursor:pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fafafa;
+            font-size: 12px;
+            border-bottom: 1px solid #e7eaef;
+            .text{
+              .title{
+                font-weight: 700;
+              }
+              .description{
+                color: #999;
+                font-weight: bold;
+              }
+            }
+            .fold{
+              .icon{
+                margin-top: 4px;
+              }
+            }
+          }
+          .color-select{
+            height: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span{
+              cursor:pointer;
+              width: 28px;
+              height: 20px;
+              border-radius: 2px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .green{
+              background-color: rgb(69, 214, 149);
+            }
+            .blue{
+              background-color: rgb(63, 149, 220);
+            }
+            .yellow{
+              background-color: rgb(236, 196, 52);
+            }
+            .red{
+              background-color: rgb(229, 79, 58);
+            }
+            .black{
+              background-color: rgb(47, 49, 60);
+            }
+            .grey{
+              background-color: rgb(213, 213, 213);
+            }
+          }
+          .bgWhite{
+            background-color: #fff;
+          }
+          .bgGreen{
+            background-color: rgb(69, 214, 149);
+          }
+          .tool-select-three{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            span{
+              border: 1px solid #e7eaef;
+              border-radius: 2px;
+              width: 65px;
+              height: 36px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              &:hover{
+                border-color: #2f313c;
+                color: #2f313c;
+              }
+            }
+          }
+          .polygon{
+            border: 1px solid #e7eaef;
+            border-radius: 2px;
+            width: 65px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+              border-color: #2f313c;
+              color: #2f313c;
+            }
+          }
+          .empty{
+            width: 65px;
+            height: 36px;
+          }
+          .tool-select-three-two{
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             height: 50px;
+        
+           }
+          .border{
+            border-color: #2f313c;
+          }
+          .tool-select-two{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            span{
+              border: 1px solid #e7eaef;
+              border-radius: 2px;
+              color: #2f313c;
+              width: 100px;
+              height: 34px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              &:hover{
+                border-color: #2f313c;
+                color: #2f313c;
+              }
+            }
+          }
+    }
+}

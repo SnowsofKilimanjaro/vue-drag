@@ -5,9 +5,7 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import VueDragResize from 'vue-drag-resize'
 import { store } from './Store'
-Vue.component('vue-drag-resize', VueDragResize)
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 /* eslint-disable no-new */

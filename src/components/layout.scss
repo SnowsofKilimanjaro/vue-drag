@@ -16,10 +16,12 @@
       width: calc(100% - 600px);
       position: relative;
       overflow: auto;
+      background-image: url("../assets/standardBg.png");
       .drag-blocks-container {
         position: relative;
         height: 100%;
         width: 100%;
+        
       }
       canvas {
         position: absolute;
@@ -27,7 +29,6 @@
         right: 0;
         top: 0;
         bottom: 0;
-        z-index: -1;
       }
     }
     .left,
